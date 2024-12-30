@@ -1,6 +1,6 @@
 import os, json, binascii
 from collections import defaultdict
-from Levenshtein import distance as levenshtein_distance
+#from Levenshtein import distance as levenshtein_distance
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
